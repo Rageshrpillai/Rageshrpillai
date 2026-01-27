@@ -2,13 +2,18 @@ Hi, I’m Ragesh 👋
 
 Aspiring **Data Engineer** with strong fundamentals in **Python and SQL**, and prior experience building **full-stack applications**.
 
-I like working close to data — from how it’s generated in applications to how it’s modeled and consumed for analytics.
+I like working close to data   from how it’s generated in applications to how it’s modeled and consumed for analytics.
 
 ---
 
 ### 📊 Data Engineering Projects
-- **Event to Analytics Data Platform** *(currently developing)*  
-  Python + SQL pipeline with API ingestion, validation, idempotent loading, OPDB, and Medallion architecture (Bronze / Silver / Gold).
+- GitHub Event Data Pipeline (In Progress)
+
+    -Building a resilient, near real-time ingestion engine for high-volume GitHub event streams.
+    
+    -Architecture: Stateless "Sliding Window" ingestion (Python) with a Medallion Architecture (PostgreSQL).
+    
+    -Key Features: Idempotent database design (ON CONFLICT deduplication), Optimistic Batching with Dead Letter Queues (DLQ) for error handling, and automated Quality Gates for data integrity.
 
 - **SQL Data Warehouse Project** *(completed)*  
   Built a data warehouse using Medallion architecture and Star Schema with batch processing and analytical queries.
@@ -24,7 +29,7 @@ I like working close to data — from how it’s generated in applications to ho
 - **AI PC Builder** – Full-stack project combining backend logic and frontend UI
 - **Dashboard Application** – Built using **Laravel** (backend) and **React** (frontend)
 
-These projects helped me understand how real application systems produce data.
+
 
 ---
 
